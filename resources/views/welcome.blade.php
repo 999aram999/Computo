@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Fotografia</title>
+        <title>Biblioteca</title>
 
         <!-- Fonts -->
         <script src="https://kit.fontawesome.com/dfe85d73e7.js" crossorigin="anonymous"></script>
@@ -318,7 +318,7 @@
         </div>
         <div class="footer" id="Contacto">
             <ul>
-                <li><a href=""><i class="fa-solid fa-envelope"> lm18050111@lagos.temm.edu.mx </i></a></li><br>
+                <li><a href=""><i class="fa-solid fa-envelope"> lm18050111@lagos.tecmm.edu.mx </i></a></li><br>
                 <li><a href=""><i class="fa-solid fa-phone"> 4741061206 </i></a></li><br>
                 <li><a href=""><i class="fa-brands fa-instagram"> <i class="fa-solid"> Aram.gd </i></i></a></li>
             </ul>
