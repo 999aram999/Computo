@@ -21,7 +21,7 @@
                     
             
                     <input type="text" class="border border-gray-200 rounded-md bg-gray-200 w-full
-                    text-lg placeholder-gray-900 p-2 my-2 focus:bg-white" placeholder="titulo"
+                    text-lg placeholder-gray-900 p-2 my-2 focus:bg-white" placeholder="Laboratorio"
                     id="titulo" name="titulo">
             
                     @error('titulo')
@@ -30,7 +30,7 @@
                     @enderror
             
                     <input type="text" class="border border-gray-200 rounded-md bg-gray-200 w-full
-                    text-lg placeholder-gray-900 p-2 my-2 focus:bg-white" placeholder="autor"
+                    text-lg placeholder-gray-900 p-2 my-2 focus:bg-white" placeholder="Num serie PC"
                     id="autor" name="autor">
             
                     @error('autor')
@@ -39,7 +39,7 @@
                     @enderror
             
                     <input type="text" class="border border-gray-200 rounded-md bg-gray-200 w-full
-                    text-lg placeholder-gray-900 p-2 my-2 focus:bg-white" placeholder="editorial"
+                    text-lg placeholder-gray-900 p-2 my-2 focus:bg-white" placeholder="Fecha"
                     id="editorial" name="editorial">
             
                     @error('editorial')
@@ -48,7 +48,7 @@
                     @enderror
             
                     <input type="text" class="border border-gray-200 rounded-md bg-gray-200 w-full
-                    text-lg placeholder-gray-900 p-2 my-2 focus:bg-white" placeholder="categoria"
+                    text-lg placeholder-gray-900 p-2 my-2 focus:bg-white" placeholder="estatus"
                     id="categoria" name="categoria">
             
                     @error('categoria')
@@ -57,7 +57,7 @@
                     @enderror
 
                     <input type="text" class="border border-gray-200 rounded-md bg-gray-200 w-full
-                    text-lg placeholder-gray-900 p-2 my-2 focus:bg-white" placeholder="estatus"
+                    text-lg placeholder-gray-900 p-2 my-2 focus:bg-white" placeholder="Servicio a realizar"
                     id="estatus" name="estatus">
             
                     @error('estatus')
@@ -66,7 +66,7 @@
                     @enderror
 
                     <input type="text" class="border border-gray-200 rounded-md bg-gray-200 w-full
-                    text-lg placeholder-gray-900 p-2 my-2 focus:bg-white" placeholder="reseña"
+                    text-lg placeholder-gray-900 p-2 my-2 focus:bg-white" placeholder="Programas"
                     id="reseña" name="reseña">
             
                     @error('reseña')
@@ -75,7 +75,7 @@
                     @enderror
 
                     <input type="text" class="border border-gray-200 rounded-md bg-gray-200 w-full
-                    text-lg placeholder-gray-900 p-2 my-2 focus:bg-white" placeholder="avance"
+                    text-lg placeholder-gray-900 p-2 my-2 focus:bg-white" placeholder="Problemas"
                     id="avance" name="avance">
             
                     @error('avance')
@@ -84,7 +84,7 @@
                     @enderror
 
                     <input type="text" class="border border-gray-200 rounded-md bg-gray-200 w-full
-                    text-lg placeholder-gray-900 p-2 my-2 focus:bg-white" placeholder="comAvance"
+                    text-lg placeholder-gray-900 p-2 my-2 focus:bg-white" placeholder="Mantenimiento posterior"
                     id="comAvance" name="comAvance">
             
                     @error('comAvance')
@@ -93,7 +93,7 @@
                     @enderror
 
                     <input type="text" class="border border-gray-200 rounded-md bg-gray-200 w-full
-                    text-lg placeholder-gray-900 p-2 my-2 focus:bg-white" placeholder="metaAnual"
+                    text-lg placeholder-gray-900 p-2 my-2 focus:bg-white" placeholder="Comentarios"
                     id="metaAnual" name="metaAnual">
             
                     @error('metaAnual')

@@ -13,11 +13,10 @@
             <input type="submit" class="my-12 w-48 text-center p-3 
             text-lg text-white bg-blue-500 rounded hover:bg-blue-600" 
             value="Add Imagen">
-            {{-- </form> --}}
             <div class="">
                 <h1 class="text-3xl text-center dont-bold">Registrar Libro</h1>
             
-                <form class="mt-4">{{--<form class="mt-4" method="POST" action="{{ route('products.store') }}">--}}
+                <form class="mt-4">
                     
             
                     <input type="text" class="border border-gray-200 rounded-md bg-gray-200 w-full

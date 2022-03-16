@@ -4,7 +4,35 @@
 
 @section('content')
 
-    <h1 class="text-5xl text-center pt-24">Bienvenido a la biblioteca web</h1>
+    <h1 class="text-5xl text-center pt-24">Trabajos que realizamos</h1>
+    <br><br><br>
+    <div class="cont" id="Trabajos">
+        <ul class="slider">
+            <li id="slide1">
+            <img src="img/e3.png"/>
+            </li>
+            <li id="slide2">
+            <img src="img/e2.png"/>
+            </li>
+            <li id="slide3">
+            <img src="img/e1.png"/>
+            </li>
+        </ul>
+        
+        <ul class="menu">
+            <li>
+            <a href="#slide1"></a>
+            </li>
+            <li>
+            <a href="#slide2"></a>
+            </li>
+            <li>
+            <a href="#slide3"></a>
+            </li>
+        </ul>
+
+    </div><br>
+</div>
     <div class="flex justify-center flex-wrap mt-16 mx-12">
         @foreach ($images as $row)
             <div class="w-4/12 p-4 hover:bg-blue-500 hover:text-white">

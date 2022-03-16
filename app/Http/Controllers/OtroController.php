@@ -32,9 +32,9 @@ class OtroController extends Controller
         $product->avance = $request->avance;
         $product->comAvance = $request->comAvance;
         $product->metaAnual = $request->metaAnual;
-        $nameImage = $request->image->getClientOriginalName();
-        $product->image = $nameImage;
-        $request->image->move(public_path('img'), $nameImage);
+        // $nameImage = $request->image->getClientOriginalName();
+        // $product->image = $nameImage;
+        // $request->image->move(public_path('imgs'), $nameImage);
          $product->save();
         return redirect()->to('user/index');
     }

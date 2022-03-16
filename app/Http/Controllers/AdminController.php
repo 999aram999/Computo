@@ -57,4 +57,9 @@ class AdminController extends Controller
         return redirect()->route('products.index');
         //return view('products.create');
     }
+
+    public function show()
+    {
+        return view('products.createpc');
+    }
 }

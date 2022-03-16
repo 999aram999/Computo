@@ -8,6 +8,7 @@ use App\Http\Controllers\ProductsController;
 use App\Http\Controllers\ImageController;
 use App\Http\Controllers\ImageUController;
 use App\Http\Controllers\OtroController;
+use App\Http\Controllers\PcController;
 
 Route::get('/user/index',[OtroController::class, 'index'])
     ->middleware('auth')
@@ -64,6 +65,26 @@ Route::get('/products/create', [AdminController::Class, 'create'])
 Route::get('/products', [AdminController::Class, 'index'])
     ->middleware('auth.admin')
     ->name('products.index');
+    // ---------------------------------------------------------------
+     Route::post('/productspcd', [PcController::class, 'destroypc'])
+     ->name('products.destroypc');
+
+     Route::post('/productspce', [PcController::class, 'editpc'])
+     ->name('products.editpc');
+
+     Route::post('/products/createpc', [PcController::Class, 'storepc'])
+     ->middleware('auth.admin')
+     ->name('products.storepc');
+
+     Route::get('/products/createpcs', [PcController::Class, 'show'])
+     ->middleware('auth.admin')
+     ->name('products.createpc');
+
+     Route::get('/productspc', [PcController::Class, 'indexpc'])
+     ->middleware('auth.admin')
+     ->name('products.indexpc');
+
+    // ---------------------------------------------------------------
 
 Route::get('/registro', [RegisterController::Class, 'create'])
     ->middleware('guest')
