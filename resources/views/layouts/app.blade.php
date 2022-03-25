@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>@yield('title') - Biblioteca</title>
+    <title>@yield('title') - Respuestas y Preguntas</title>
 
     <!-- Tailwind CSS Link -->
     <link rel="stylesheet" href="sty.css">
@@ -21,7 +21,7 @@
   <body class="bg-white text-gray-800">
     <nav class="flex py-5 bg-blue-500 text-white">
       <div class="w-1/2 px-12 mr-auto">
-        <p class="text-2xl font-bold"><a href="http://localhost/Escuela/public/">Mantenimiento de computo</a></p>
+        <p class="text-2xl font-bold"><a href="http://localhost/PreguntasRespuestas/public/">Preguntas y Respuestas</a></p>
       </div>
       <ul class="w-1/2 px-16 ml-auto flex justify-end pt-1">
         @if(auth()->check())
@@ -30,10 +30,10 @@
           </li>
           @if(auth()->user()->role == 'admin'){{--{{ auth()->user()->role }} == 'admin' --}}
             <li clas="mx-6">
-              <a href="{{route('products.index')}}" class="font-semibold hover:bg-white py-3 px-4 rounded-md mx-1 border-2 border-white hover:text-blue-700">LB y PC</a>
+              <a href="{{route('products.index')}}" class="font-semibold hover:bg-white py-3 px-4 rounded-md mx-1 border-2 border-white hover:text-blue-700">Mis P & R</a>
             </li>
             <li>
-              <a href="{{route('user.index')}}" class="font-semibold border-2 border-white py-3 px-4 rounded-md hover:bg-white hover:text-blue-700 mx-10">Tickets</a>
+              <a href="{{route('admin.create')}}" class="font-semibold border-2 border-white py-3 px-4 rounded-md hover:bg-white hover:text-blue-700 mx-10">Add Pregunta</a>
             </li>  
           @endif
           @if(auth()->user()->role == 'user')

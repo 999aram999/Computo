@@ -38,8 +38,8 @@ Route::post('/admin/createU', [ImageUController::class, 'storeU'])
     ->middleware('auth');
 
 
-Route::get('/',[ImageController::class, 'index'])
-->middleware('auth');
+Route::get('/',[ImageController::class, 'index']);
+// ->middleware('auth');
 
 Route::get('/admin/create', [ImageController::class, 'create'])
     ->middleware('auth')
